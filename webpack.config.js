@@ -1,7 +1,7 @@
 const path = require("path");
 
 const config = {
-    entry: path.resolve(__dirname, "src", "main.ts"),
+    entry: path.resolve(__dirname, "src", "index.ts"),
     mode: "development",
     module: {
         rules: [
