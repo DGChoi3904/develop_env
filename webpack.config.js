@@ -6,6 +6,9 @@ const config = {
     module:{
         rules:[]
     },
+    resolve:{
+        extensions: [".js",".ts"]
+    },
     output:{
         filename: "main.js",
         path:path.resolve(__dirname, "dist")
