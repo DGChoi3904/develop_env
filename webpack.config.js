@@ -6,6 +6,11 @@ const config = {
     module: {
         rules: [
             {
+                test: /\.(tsx?|js)$/,
+                exclude : /node_modules/,
+                loader: "babel-loader"
+            },
+            {
                 test: /\.tsx?$/,
                 exclude : /node_modules/,
                 loader: "ts-loader"
