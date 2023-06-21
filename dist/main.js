@@ -8,7 +8,26 @@
  */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/index.ts":
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+/***/ (() => {
+
+eval("\nfunction helloWorldYourName(name) {\n    const fullStr = \"Hello, World! \" + name;\n    return fullStr;\n}\nconsole.log(helloWorldYourName(\"DaeGon!\"));\n\n\n//# sourceURL=webpack://develop_env/./src/index.ts?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
 /******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/index.ts"]();
 /******/ 	
 /******/ })()
 ;
