@@ -7,15 +7,16 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/index.tsx":
 /*!***********************!*\
   !*** ./src/index.tsx ***!
   \***********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, exports) => {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (4:12)\\nFile was processed with these loaders:\\n * ./node_modules/ts-loader/index.js\\nYou may need an additional loader to handle the result of these loaders.\\n| Object.defineProperty(exports, \\\"__esModule\\\", { value: true });\\n| function App() {\\n>     return (<div>\\n|             Hello World!\\n|         </div>);\");\n\n//# sourceURL=webpack://develop_env/./src/index.tsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nfunction App() {\n  return /*#__PURE__*/React.createElement(\"div\", null, \"Hello World!\");\n}\n\n//# sourceURL=webpack://develop_env/./src/index.tsx?");
 
 /***/ })
 
@@ -24,9 +25,9 @@ eval("throw new Error(\"Module parse failed: Unexpected token (4:12)\\nFile was 
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/index.tsx"]();
+/******/ 	__webpack_modules__["./src/index.tsx"](0, __webpack_exports__);
 /******/ 	
 /******/ })()
 ;
