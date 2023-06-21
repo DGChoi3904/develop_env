@@ -18,6 +18,7 @@
   "homepage": "https://github.com/DGChoi3904/develop_env#readme",
   "devDependencies": {
     "@types/node": "^20.3.1",
+    "css-loader": "^6.8.1",
     "ts-loader": "^9.4.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3",
