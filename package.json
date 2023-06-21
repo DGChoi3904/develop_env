@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DGChoi3904/develop_env#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.5",
     "@types/node": "^20.3.1",
     "@types/react": "^18.2.13",
     "babel-loader": "^9.1.2",
