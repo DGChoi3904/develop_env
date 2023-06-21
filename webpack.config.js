@@ -17,7 +17,7 @@ const config = {
         ]
     },
     resolve: {
-        extensions: [".js", ".ts"]
+        extensions: [".js", ".ts", ".tsx"]
     },
     output: {
         filename: "main.js",
