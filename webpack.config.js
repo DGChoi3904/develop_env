@@ -1,12 +1,12 @@
 const path = require("path");
 
 const config = {
-    enrty: path.resolve(__dirname, "src", "main.ts"),
+    entry: path.resolve(__dirname, "src", "main.ts"),
     mode: "development",
     module: {
         rules: [
             {
-                test: /\.tsx?$/,
+                test: /\.ts?$/,
                 exclude : /node_modules/,
                 loader: "ts-loader"
             },
@@ -24,3 +24,5 @@ const config = {
         path: path.resolve(__dirname, "dist")
     }
 }
+
+module.exports = config;
