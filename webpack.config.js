@@ -9,6 +9,10 @@ const config = {
                 test: /\.tsx?$/,
                 exclude : /node_modules/,
                 use: "ts-loader"
+            },
+            {
+                test: /\.css$/,
+                use:["css-loader"]
             }
         ]
     },
