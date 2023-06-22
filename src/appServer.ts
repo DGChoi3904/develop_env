@@ -11,3 +11,6 @@ const server = http.createServer((req,res)=> {
     }
 })
 
+server.listen(3090,()=>{
+    console.log("localhost:3090 서버 열림")
+})
