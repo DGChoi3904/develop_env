@@ -3,7 +3,7 @@ const path = require("path");
 const config = {
     entry: path.resolve(__dirname, "src", "index.tsx"),
     mode: "development",
-    target:["web","ES5"],
+    target:["web","es5"],
     module: {
         rules: [
             {
